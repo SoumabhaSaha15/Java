@@ -46,19 +46,13 @@ public class CommandLine {
             System.out.println("Please provide radius of Circle, length and width of Rectangle, and side of Square.");
             return;
         }
-
         double circleRadius = Double.parseDouble(args[0]);
         double rectLength = Double.parseDouble(args[1]);
         double rectWidth = Double.parseDouble(args[2]);
         double squareSide = Double.parseDouble(args[3]);
-
         Circle circle = new Circle(circleRadius);
-        System.out.println("Perimeter of Circle: " + circle.getPerimeter());
-
         Rectangle rectangle = new Rectangle(rectLength, rectWidth);
-        System.out.println("Perimeter of Rectangle: " + rectangle.getPerimeter());
-
         Square square = new Square(squareSide);
-        System.out.println("Perimeter of Square: " + square.getPerimeter());
+        System.out.printf("Perimeter of Circle: %.2f Rectangle %.2f Square %.2f.", circle.getPerimeter(), rectangle.getPerimeter(), square.getPerimeter());
     }
 }
