@@ -1,4 +1,3 @@
-//counting instances inside the program
 class Counter {
     static private  int count = 0;
 
