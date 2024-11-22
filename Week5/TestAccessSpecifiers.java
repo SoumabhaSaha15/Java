@@ -16,7 +16,7 @@ public class TestAccessSpecifiers {
         AccessSpecifierExample example = new AccessSpecifierExample();
         System.out.println("Accessing Public Variable: " + example.publicVar);
         try {
-            System.out.println("Accessing Public Variable: " + example.privateVar);
+            // System.out.println("Accessing Public Variable: " + example.privateVar);
         } catch (Exception e) {
             System.err.println(e);
         }
