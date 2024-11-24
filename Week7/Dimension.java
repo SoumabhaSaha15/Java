@@ -15,8 +15,7 @@ class Dimension {
 
 class Rectangle extends Dimension {
 
-    private double length;
-    private double breadth;
+    private double length,breadth;
 
     public Rectangle(double length, double breadth) {
         this.length = length;

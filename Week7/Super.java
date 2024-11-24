@@ -6,8 +6,9 @@ public class Super {
     }
     public static void main(String[] args) {
         Sub s1 = new Sub();
+        Super s2 = new Super();
         System.out.println(s1.subClassMember);
-        System.out.println(s1.superClassMember);
+        System.out.println(s1.superClassMember+"\n"+s2.superClassMember);
     }
 }
 class Sub extends Super{
