@@ -1,9 +1,8 @@
 interface Area {
-    double calculateArea(); // Abstract method to calculate area
+    double calculateArea();
 }
 class Rectangle implements Area {
-    private double length;
-    private double breadth;
+    private final double length,breadth;
 
     Rectangle(double length, double breadth) {
         this.length = length;
@@ -16,7 +15,7 @@ class Rectangle implements Area {
     }
 }
 class Circle implements Area {
-    private double radius;
+    private final double radius;
 
     Circle(double radius) {
         this.radius = radius;
@@ -33,6 +32,6 @@ public class AreaDemo {
         Area rectangle = new Rectangle(5, 10);
         Area circle = new Circle(7);
         System.out.println("Area of Rectangle: " + rectangle.calculateArea());
-        System.out.println("Area of Circle: " + circle.calculateArea());
+        System.out.println(String.format("Area of Circle: %.2f" ,circle.calculateArea()));
     }
 }
