@@ -1,0 +1,32 @@
+Basic String handling & 1/0:
+Basic string handling concepts- Concept of mutable and immutable string, Methods of String
+class- 
+charAt(), 
+compareTo(), 
+equals(), 
+equalsIgnoreCase(), 
+indexOf(), 
+length() , 
+substring(),
+toCharArray(), 
+toLowerCase(), 
+toString(), 
+toUpperCase() ,
+trim() ,
+valueOf() 
+String buffer class- 
+append(), 
+capacity(), 
+charAt(), 
+delete(), 
+deleteCharAt().
+ensureCapacity(), 
+getChars(), 
+indexOf(), 
+insert(), 
+length(), 
+setCharAt(), 
+setLength(),
+substring(), 
+toString(). ILI; Command line arguments, basics of 1/0 operations — keyboard
+input using Buffered Reader 11 Ll ;Scanner class in Java 1/0 operation ILI;Module 3:

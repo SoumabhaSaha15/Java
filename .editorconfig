@@ -1,0 +1,13 @@
+# EditorConfig is awesome: https://EditorConfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+
+[*.java]
+# Java-specific rules
+brace_style = same_line
+curly_braces = allow_single_line
